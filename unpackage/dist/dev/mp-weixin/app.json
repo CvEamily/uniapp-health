@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/record/record",
+    "pages/user/user",
+    "pages/add/add",
+    "pages/blog/blog",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/user/revise/revise",
+    "pages/index/eatWhat/eatWhat",
+    "pages/index/answer/answer",
+    "pages/index/excRe/excRe"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "static/icon/time.png",
+        "selectedIconPath": "static/icon/time.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/write.png",
+        "selectedIconPath": "static/icon/write.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

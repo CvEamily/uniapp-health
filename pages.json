@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "健康知音"
+			}
+		}
+    ,{
+        "path" : "pages/record/record",
+        "style" :                                                                               
+        {
+            "navigationBarTitleText": "健康记录",
+            "enablePullDownRefresh": false
+        }
+    }
+      ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/blog/blog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/revise/revise",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/eatWhat/eatWhat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "今天吃什么",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/answer/answer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "健康知识小课堂",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/excRe/excRe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	// "uniIdRouter": {},
+  "tabBar": {
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home.png"
+      },
+      {
+        "pagePath":"pages/record/record",
+        "iconPath": "static/icon/time.png",
+        "selectedIconPath": "static/icon/time.png"
+      },
+      // {
+      //   "pagePath":"pages/add/add",
+      //   "iconPath": "static/icon/home.png",
+      //   "selectedIconPath": "static/icon/home.png"
+      // },
+      // {
+      //   "pagePath":"pages/blog/blog",
+      //   "iconPath": "static/icon/home.png",
+      //   "selectedIconPath": "static/icon/home.png"
+      // },
+      {
+        "pagePath":"pages/user/user",
+        "iconPath": "static/icon/write.png",
+        "selectedIconPath": "static/icon/write.png"
+      }
+    ]
+  }
+}

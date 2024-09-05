@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "健康记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "liu-progressbar": "/uni_modules/liu-progressbar/components/liu-progressbar/liu-progressbar",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}
